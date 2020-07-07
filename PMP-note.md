@@ -26,7 +26,7 @@
 【考点】PMI《道德与专业行为规范》：责任、尊重、公正、诚实  
 【考点】生命周期类型：预测型、迭代型、增量型、适应型、混合型  
 
-附：Stacey矩阵
+附：Stacey矩阵  
 ![Stacey Matrix](./images/stacey-matrix.jpg)
 
 ## 第二章 项目运行环境
