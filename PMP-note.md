@@ -457,7 +457,27 @@ QFD       | 从收集客户需要（又称“客户声音”）开始，然后�
 
 **过程组**：监控过程组
 
-**TODO**
+**挣值管理**
+
+```text
+BAC（Budget At Completion）完工预算
+
+PV（Planned Value）计划价值 = 计划完成的工作量 × 预算单价
+EV（Earned Value）挣值 = 实际已完成的工作量 × 预算单价
+AC（Actual Cost）实际成本 = 实际已完成的工作量 × 实际单价
+
+CV（Cost Variance）成本偏差 = EV - AC       # 大于0利，节约成本；小于0弊，成本超支
+SV（Schedule Variance）进度偏差 = EV - PV   # 大于0利，进度提前，小于0弊，进度滞后
+
+CPI（Cost Performance Index）成本绩效指数 = EV / AC       # 大于1利，小于1弊，含义：1块做了多钱的事
+SPI（Schedule Performance Index）进度绩效指数 = EV / PV   # 大于1利，小于1弊，含义：实际进度是计划进度的多少倍
+
+EAC（Estimate At Completion）完工估算
+    = BAC / CPI （典型）        # 后续工作效率不变
+    = AC + BAC - EV （非典型）  # 后续可以恢复正常步入正轨
+
+ETC（Estimate To Completion）完工尚需估算 = EAC - AC
+```
 
 ## 第八章 项目质量管理⭐
 
